@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    /* border: 1px solid red; */
+  }
+
+header {
+    width: 100%;
+    background-color: #F5F5F5;
+    border-top: 28px solid #2F2655;
+    border-bottom: 28px solid #CC1235;
+    
+    & .container_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+    & nav, ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+.container1 {
+    background-image: url(./img/Bg-topo1.png);
+    width: 100%;
+    height: 501px;
+}
+
+.container2 {
+    background-image: url(./img/bgTvLeao_Home3.png);
+    background-color: #C6C6D8;
+    width: 100%;
+    height: 501px;
+    display: flex;
+    flex-direction: row;
+
+    & container2_text {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
